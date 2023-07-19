@@ -1,0 +1,15 @@
+.Key {
+    margin-bottom: 50px;
+}
+
+.result {
+    height: 200px;
+    width: 300px;
+    border: 3px solid black;
+    margin: 60px auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
