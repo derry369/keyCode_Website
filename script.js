@@ -6,6 +6,10 @@ let input;
 //declare variable convResult
 let convResult;
 
+//click event listener
+const buttons = document.querySelectorAll('button');
+buttons.forEach(button => button.addEventListener('click', alertPrompt));
+
 //declare function to alert prompt
 function alertPrompt (e) {
     if(e.srcElement.innerHTML === 'Keycode to Character') {
@@ -19,9 +23,6 @@ function alertPrompt (e) {
     dispResults();
 };
 
-//click event listener
-const buttons = document.querySelectorAll('button');
-buttons.forEach(button => button.addEventListener('click', alertPrompt));
 
 //display results
 function dispResults() {
